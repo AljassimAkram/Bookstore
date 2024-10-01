@@ -1,0 +1,42 @@
+@media (max-width: 480px) {
+    .books {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+  
+    .booksHeader img {
+        height: 100px;
+    }
+    h2{
+        font-size: 20px;
+    }
+  
+  
+    .bookDetailsTable td, .commentsTable td {
+        display: block;
+        width: 100%;
+    }
+}
+@media (max-width: 405px){
+    h1{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .books {
+        width: 95%;
+    }
+    .bookDetailsTable td, .commentsTable td, .bookDetailsTable th, .commentsTable th{
+        font-size: 14px;
+    }
+    .commentsTable tbody {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}

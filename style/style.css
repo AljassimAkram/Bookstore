@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family:OpenSans;
+    src:url(./font/OpenSans.ttf);
+  }
+
+  #books {
+    padding: 20px;
+    background-color: #303434;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family:OpenSans;
+  }
+  .books {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: rgb(84 86 86);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 420px;
+    gap: 24px;
+    box-shadow: 0 0 10px #b9adad;
+  }
+  
+  .booksHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 26px;
+
+  }
+  .imeage{
+    height: 150px;
+  }
+  
+  .booksHeader img {
+    height: 150px;
+    align-items: center;
+    object-fit: contain;
+    background-color: rgb(84 86 86);
+    box-shadow: inset 0px 20px 3em 0.2em #0a0a0a;
+    border-radius: 8px;
+  }
+  
+  .booksSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    gap: 24px;
+    border-bottom: solid #151718;
+  }
+  
+  .bookDetailsTable, .commentsTable {
+    border-bottom: solid #151718;
+    
+  }
+  .commentsHTML{
+    max-height: 250px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .bookDetailsTable th {
+    text-align: left;
+  }
+  .commentsTable th {
+    text-align: left;
+    vertical-align: top;
+  }
+  .commentsTable td {
+    max-width: 180px;
+    word-wrap: break-word; 
+    padding-bottom: 14px;
+
+  }
+  
+  .commentsName {
+    font-weight: bold;
+  }
+  .heart-icon {
+    width: 24px;
+    cursor: pointer;
+  }
+  
+  .comment-input {
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+  }
+  
+  .comment-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .add-comment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(84 86 86);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: #303434;
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+   background-color:rgb(139, 142, 142);; 
+  }
+  .price {
+    color: rgb(255, 0, 34);
+    font-weight: bold;
+}
